@@ -21,7 +21,7 @@ The SFDC shortcut keys you wish you had.
 
 <h1>Installation Instructions</h1>
 <ul>
-<li>Step 1: Download zip</li>
+<li>Step 1: <a href="https://github.com/PatrickDePuydt/ForceCuts/archive/master.zip">Download zip here</a></li>
 <li>Step 2: Unzip</li>
 <li>Step 3: Go to Chrome preferences</li>
 <li>Step 4: Switch to Developer Mode</li>
