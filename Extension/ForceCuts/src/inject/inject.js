@@ -250,15 +250,13 @@ Mousetrap.bind(['t'], function(e) {
 Mousetrap.bind(['u'], function(e) {
 	e.preventDefault();
 		//Lead View Selector
-		var leadViewID = document.querySelectorAll('div')[145].getAttribute('id');
+		if (leadTabIndicator == 'Leads Tab - Selected') {
 		var event = new MouseEvent('dblclick', {
 			'view': window,
 			'bubbles': true,
 			'cancelable': true
-		});
-		//Lead Selectors
-		if (leadViewID == 'lea13_ileinner') {	
-			document.getElementById(leadViewID).dispatchEvent(event);
+		});	
+			document.getElementById('lea13_ilecell').dispatchEvent(event);
 		} 
 		//Oppy Selectors
 		else {
