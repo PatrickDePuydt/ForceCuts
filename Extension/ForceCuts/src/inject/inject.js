@@ -100,6 +100,7 @@ Mousetrap.bind(['command+e'], function(e) {
 
 //Follow Up Date (Lead View Only)
 Mousetrap.bind(['f'], function(e) {
+if (leadTabIndicator == 'Leads Tab - Selected') {
 	console.log('Follow Up Date Code Wrote')
 	var event = new MouseEvent('dblclick', {
 		'view': window,
@@ -107,6 +108,16 @@ Mousetrap.bind(['f'], function(e) {
 		'cancelable': true
 	});
 	document.getElementById('00No00000045qsP_ileinner').dispatchEvent(event);
+} else {
+
+	var event = new MouseEvent('dblclick', {
+		'view': window,
+		'bubbles': true,
+		'cancelable': true
+	});
+	document.getElementById('opp10_ileinner').dispatchEvent(event);
+}
+
 
 });
 
