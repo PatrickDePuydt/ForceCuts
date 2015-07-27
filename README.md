@@ -2,7 +2,7 @@
 The SFDC shortcut keys you wish you had.
 
 <ul>
-<p>In Alaphabetical Order of Key</p>
+<p>In Alphabetical Order of Key</p>
 <li class="shortCutKeys">Convert <span class="highlight"> c</span></li>
 <li class="shortCutKeys">Check for Duplicates <span class="highlight"> d</span></li>
 <li class="shortCutKeys">Copy email address <span class="highlight"> cmd+e</span></li>
@@ -34,7 +34,7 @@ The SFDC shortcut keys you wish you had.
 <a href="https://craig.is/killing/mice">Mouse Trap</a>
 
 <h2>Built With:</h2>
-<a href="extensionizr.com">Extensionizr</a>
+<a href="http://extensionizr.com/">Extensionizr</a>
 
 <h2>Special Thanks to:</h2>
 <ul>
