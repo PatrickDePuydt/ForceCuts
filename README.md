@@ -34,7 +34,7 @@ The SFDC shortcut keys you wish you had.
 <a href="https://craig.is/killing/mice">Mouse Trap</a>
 
 <h2>Built With:</h2>
-<a href="extensionizr.com">Extensionizr</a>
+<a href="http://extensionizr.com/">Extensionizr</a>
 
 <h2>Special Thanks to:</h2>
 <ul>
