@@ -202,6 +202,27 @@ Mousetrap.bind(['n'], function(e) {
 
 
 
+//Select Phone Number
+Mousetrap.bind(['p'], function(e) {
+if (leadTabIndicator == 'Leads Tab - Selected') {
+var event = new MouseEvent('dblclick', {
+	'view': window,
+	'bubbles': true,
+	'cancelable': true
+});
+document.getElementById('lea8_ilecell').dispatchEvent(event);
+
+} else {
+var event = new MouseEvent('dblclick', {
+	'view': window,
+	'bubbles': true,
+	'cancelable': true
+});
+document.getElementById('00No0000009r1DC_ileinner').dispatchEvent(event);
+
+	
+}
+});
 
 
 
@@ -271,8 +292,6 @@ document.getElementById('CF00No0000009r1BG_ileinner').dispatchEvent(event);
 
 	
 }
-
-
 });
 
 
