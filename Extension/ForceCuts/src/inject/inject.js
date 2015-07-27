@@ -253,13 +253,26 @@ Mousetrap.bind(['u'], function(e) {
 
 //Winning Date (Lead View Only)
 Mousetrap.bind(['w'], function(e) {
-// console.log('W pressed')
+if (leadTabIndicator == 'Leads Tab - Selected') {
 var event = new MouseEvent('dblclick', {
 	'view': window,
 	'bubbles': true,
 	'cancelable': true
 });
 document.getElementById('CF00No0000009uK6r_ileinner').dispatchEvent(event);
+
+} else {
+var event = new MouseEvent('dblclick', {
+	'view': window,
+	'bubbles': true,
+	'cancelable': true
+});
+document.getElementById('CF00No0000009r1BG_ileinner').dispatchEvent(event);
+
+	
+}
+
+
 });
 
 
