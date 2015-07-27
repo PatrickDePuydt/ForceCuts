@@ -19,4 +19,14 @@ The SFDC shortcut keys you wish you had.
 <li class="shortCutKeys">Cancel <span class="highlight">cmd+ z</span></li>
 </ul>
 
-Special Thanks to:
+<h2>Dependencies:</h2>
+<a href="https://craig.is/killing/mice">Mouse Trap</a>
+
+<h2>Built With:</h2>
+<a href="extensionizr.com">Extensionizr</a>
+
+<h2>Special Thanks to:</h2>
+<ul>
+<li><a href="https://github.com/msteffan">Melissa Steffan</a></li>
+<li><a href="https://github.com/jshawl">Jesse Shawl</a></li>
+</ul>
