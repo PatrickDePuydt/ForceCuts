@@ -19,13 +19,6 @@ chrome.extension.sendMessage({}, function(response) {
 
 //Global Bind Dependency
 (function(a){var c={},d=a.prototype.stopCallback;a.prototype.stopCallback=function(e,b,a,f){return this.paused?!0:c[a]||c[f]?!1:d.call(this,e,b,a)};a.prototype.bindGlobal=function(a,b,d){this.bind(a,b,d);if(a instanceof Array)for(b=0;b<a.length;b++)c[a[b]]=!0;else c[a]=!0};a.init()})(Mousetrap);
-console.log('Global Bind Dependency Loaded');
-
-
-
-
-
-
 
 //Global Variables
 var leadTabIndicator = document.getElementById('Lead_Tab').getElementsByTagName('a')[0].getAttribute('title');
@@ -98,6 +91,9 @@ Mousetrap.bind(['command+e'], function(e) {
 });
 
 
+//00No0000008ujWU_ileinner <td>
+//00No00000045qsP_ileinner <div>
+
 //Follow Up Date (Lead View Only)
 Mousetrap.bind(['f'], function(e) {
 if (leadTabIndicator == 'Leads Tab - Selected') {
@@ -115,7 +111,7 @@ if (leadTabIndicator == 'Leads Tab - Selected') {
 		'bubbles': true,
 		'cancelable': true
 	});
-	document.getElementById('opp10_ileinner').dispatchEvent(event);
+	document.getElementById('00No0000008ujWU_ileinner').dispatchEvent(event);
 }
 
 
@@ -134,7 +130,7 @@ Mousetrap.bind(['j'], function(e) {
 
 		setTimeout(function(){
 			document.getElementById('00No00000048Zg9').focus();
-		},250);
+		},150);
 
 	} else {
 
@@ -148,7 +144,7 @@ Mousetrap.bind(['j'], function(e) {
 
 		setTimeout(function(){
 			document.getElementById('opp10').focus();
-		},250)
+		},150)
 
 	}
 });
