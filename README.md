@@ -19,6 +19,17 @@ The SFDC shortcut keys you wish you had.
 <li class="shortCutKeys">Cancel <span class="highlight">cmd+ z</span></li>
 </ul>
 
+<h1>Installation Instructions</h1>
+<ul>
+<li>Step 1: Download zip</li>
+<li>Step 2: Unzip</li>
+<li>Step 3: Go to Chrome preferences</li>
+<li>Step 4: Switch to Developer Mode</li>
+<li>Step 5: Load in Unpacked Extension</li>
+<li>Step 6: Go back to SFDC and refresh</li>
+<li>Step 7: Wait for ForceCuts Ready and then you can use it.</li>
+</ul>
+
 <h2>Dependencies:</h2>
 <a href="https://craig.is/killing/mice">Mouse Trap</a>
 
