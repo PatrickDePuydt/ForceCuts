@@ -1,9 +1,9 @@
 {
   "name": "ForceCuts",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "manifest_version": 2,
   "description": "The SFDC shortcut keys you wish you had.",
-  "homepage_url": "http://www.github.com/patrickdepuydt",
+  "homepage_url": "https://github.com/PatrickDePuydt/ForceCuts",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -24,11 +24,20 @@
   "content_scripts": [
     {
       "matches": [
+         "*://*.na17.salesforce.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ]
+    },
+    {
+      "matches": [
         
-        "*://*.na17.salesforce.com/*", "https://www.google.com/*"
+        "*://*.na17.salesforce.com/*"
       ],
       "js": [
         "src/inject/inject.js"
+
       ]
     }
   ]

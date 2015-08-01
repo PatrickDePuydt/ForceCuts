@@ -3,6 +3,7 @@ The SFDC shortcut keys you wish you had.
 
 <ul>
 <p>In Alphabetical Order of Key</p>
+<li class="shortCutKeys">Ready Next Shoortcut Key <span class="highlight"> TAB</span></li>
 <li class="shortCutKeys">Convert <span class="highlight"> c</span></li>
 <li class="shortCutKeys">Check for Duplicates <span class="highlight"> d</span></li>
 <li class="shortCutKeys">Copy email address <span class="highlight"> cmd+e</span></li>

@@ -1,0 +1,36 @@
+/*
+html {
+	background-color:white;
+}
+
+
+tbody {
+background-color:white;
+}
+
+body {
+	background-color:white;
+}
+
+.bPageFooter {
+
+	background-color:white;
+}
+
+.noTableFooter {
+
+	background-color:white;
+}
+
+#phHeaderLogoImage {
+
+	
+}
+*/
+#tempSpan {
+	color:white;
+    display: block;
+    background-color: #1797c0;
+    width: 30%;
+    text-align: center
+}
